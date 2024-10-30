@@ -1,0 +1,105 @@
+#content {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #333;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#fdisplay {
+    width: 75%;
+    padding-right: 5px;
+}
+#sdisplay {
+    width: 24%;
+    background-color:#f2eeeb;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+.thumbs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+#thumbs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border: 1px #00c4ff solid;
+
+}
+#thumbs #img {
+    width: 100%;
+    height: 150px;
+}
+#thumbs img {
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 5%;
+    border: 1px #0a36b8 solid;
+}
+#title {
+    color: white;
+    width: 100%;
+    height: 36px;
+    /* adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#title a {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#more {
+    text-align: center;
+    width: 50%;
+    background-color: #00ffff;
+    border-radius: 20px; 
+}
+#logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#fdisplay img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 1px #ff0000f7 solid;
+    margin-right: 10px;
+}
+#fdisplay h2 {
+    margin-left: 5px;
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+}
+#fdisplay p {
+    margin-top: 10px;
+    color: white;
+    text-align: justify;
+    text-indent: 10%;
+}

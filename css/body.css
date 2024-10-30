@@ -1,0 +1,7 @@
+body {
+  background-image: url("../imgs/userimg/mond.jpg");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  margin-top:50px;
+}
